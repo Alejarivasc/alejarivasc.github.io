@@ -2,9 +2,8 @@
     background-color: #ffcccb !important;
 }
 body {
-    
-    background: linear-gradient(to top, #ffcccb, #FFF5E4);
-    font-family: 'Encode Sans Condensed', sans-serif;
+    background: linear-gradient(to top, #ffcccb, #fff5e4);
+    font-family: "Encode Sans Condensed", sans-serif;
 }
 .pic {
     height: 500px;
@@ -12,43 +11,44 @@ body {
 }
 .principal {
     background-image: url(../img/donas.jpg);
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.desc h1{
+.desc h1 {
     font-size: 5rem;
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     margin-bottom: 2rem;
 }
 .desc h6 p {
-font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
-#aboutme{
-    font-family: 'Satisfy', cursive;
+#aboutme {
+    font-family: "Satisfy", cursive;
     font-size: 3rem;
 }
-.card:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
+.card:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
-.card:hover{overflow:hidden;
+.card:hover {
+    overflow: hidden;
 }
 
-    #porta{
-    font-family: 'Satisfy', cursive;
+#porta {
+    font-family: "Satisfy", cursive;
     font-size: 3rem;
-
 }
 .carousel-inner img {
     justify-content: center;
     height: 620px;
 }
-.carousel-inner{
+.carousel-inner {
     border-radius: 2rem;
 }
-.carousel-caption{
+.carousel-caption {
     font-size: 10px;
     font-weight: 500;
     background-color: whitesmoke;
@@ -59,28 +59,28 @@ font-size: 1.25rem;
     padding-bottom: 0;
     opacity: 0.9;
 }
-.carousel{
-    width: 600px;
-    height: 600px;
+.carousel {
+    /* width: 600px; */
+    max-height: 600px;
     margin-bottom: 2rem;
 }
 #contact {
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 3rem;
 }
-.icon{
+.icon {
     display: flex;
     justify-content: space-evenly;
     font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.icon a{
+.icon a {
     text-decoration: none;
     color: black;
 }
-footer{
+footer {
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
