@@ -1,0 +1,60 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.principal {
+    height: 5em;
+    padding: 3em;
+    font-size: 2em;
+    background-image: url(../img/mapa.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 100px;
+}
+
+.principal h1 {
+    margin: 0px;
+    font-weight: 400;
+    text-align: center;
+    color: darkred;
+}
+
+.principal p {
+    margin: 0px;
+    color: rgb(219, 4, 4);
+    text-align: center;
+}
+
+.option {
+    width: 80%;
+    margin: auto;
+}
+
+.option td {
+    width: 50%;
+    padding: 2em;
+}
+
+.option p {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.option img {
+    width: 100%;
+    border: solid 1px rgb(148, 38, 38);
+}
+
+.contact {
+    background-color: crimson;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
